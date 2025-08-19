@@ -1,8 +1,8 @@
 # Hypervisor
 
-* Hypervisor ist eine Software, welche vms ausführt. *
+** Hypervisor ist eine Software, welche vms ausführt. **
 
-Unterschiede:
+### Unterschiede: 
 
 Typ 1: Bare-Metal, Läuft auf der Hardware, hat hohe Leistung und wird meist in Rechenzentren eingesetzt.
 
