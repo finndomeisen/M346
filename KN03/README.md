@@ -2,7 +2,7 @@
 
 Kurze Erklärung was Ihre SQL-Abfrage (SELECT-Statement) ausliest:
 
-Die SQL-Abfrage zeigt mir alle Datenbank-User an, die auf dem Server existieren. So sehe ich z. B. den User `admin`, den ich vorher erstellt habe, oder auch `root`. Damit kann ich checken, ob die Verbindung zur Datenbank richtig funktioniert.
+Die SQL Abfrage zeigt mir alle Datenbank User an, die auf dem Server existieren. So sehe ich zum Beispiel den User `admin`, den ich vorher erstellt habe, oder auch `root`. Damit kann ich checken, ob die Verbindung zur Datenbank richtig funktioniert.
 
 
 
