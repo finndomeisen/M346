@@ -18,6 +18,6 @@ Meine Instanz hat folgende Einstellungen:
 
 - Private Key → bleibt bei dir, geheim, damit loggst du dich ein.
 - Public Key → liegt auf dem Server, darf öffentlich sein.
-Nur wenn beide zusammenpassen, bekommst du Zugriff.
+- Nur wenn beide zusammenpassen, bekommst du Zugriff.
 Wenn der Public Key nicht auf dem Server liegt → dein Private Key bringt nix.
 
