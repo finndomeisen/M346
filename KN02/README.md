@@ -6,3 +6,5 @@ Meine Instanz hat folgende Einstellungen:
 - Betriebssystem: Linux/UNIX
 - Grösse des RAM: 957 Mi
 - Anzahl der CPUs: 1
+
+![Instanzen](URL_zum_Bild)
