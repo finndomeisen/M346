@@ -10,7 +10,9 @@ Meine Instanz hat folgende Einstellungen:
 
 ![Instanzen](https://github.com/finndomeisen/M346/blob/main/KN02/img/Instanz.png)
 
+![Instanzen](https://github.com/finndomeisen/M346/blob/main/KN02/img/Schlüsselpaar_zugewiesen.png)
 
+![Instanzen](https://github.com/finndomeisen/M346/blob/main/KN02/img/Schlüssel_Testing.png)
 
 
 
