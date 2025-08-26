@@ -1,5 +1,14 @@
 # KN03
 
+![Websiten Testen](https://github.com/finndomeisen/M346/blob/main/KN03/img/Website_Testen.png)
+
+![Sql Login](https://github.com/finndomeisen/M346/blob/main/KN03/img/Sql_Login.png)
+
+![Sicherheitsgruppen](https://github.com/finndomeisen/M346/blob/main/KN03/img/Sicherheitsgruppe.png)
+
+
+
+
 ## Wichtige Commands
 
 - `sudo apt update`  
