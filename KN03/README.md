@@ -10,7 +10,7 @@ Die SQL-Abfrage zeigt mir alle Datenbank-User an, die auf dem Server existieren.
 ![Websiten Testen](https://github.com/finndomeisen/M346/blob/main/KN03/img/Website_Testen.png)
 ![Website Testing](https://github.com/finndomeisen/M346/blob/main/KN03/img/Website_Testing.png)
 
-![Sql Login](https://github.com/finndomeisen/M346/blob/main/KN03/img/Sql_Login.png)
+![Sql Login](https://github.com/finndomeisen/M346/blob/main/KN03/img/Sql_Login1.png)
 
 ![Sicherheitsgruppen](https://github.com/finndomeisen/M346/blob/main/KN03/img/Sicherheitsgruppe.png)
 
