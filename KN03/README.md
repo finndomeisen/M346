@@ -1,5 +1,12 @@
 # KN03
 
+Kurze Erklärung was Ihre SQL-Abfrage (SELECT-Statement) ausliest:
+
+Die SQL-Abfrage zeigt mir alle Datenbank-User an, die auf dem Server existieren. So sehe ich z. B. den User `admin`, den ich vorher erstellt habe, oder auch `root`. Damit kann ich checken, ob die Verbindung zur Datenbank richtig funktioniert.
+
+
+
+
 ![Websiten Testen](https://github.com/finndomeisen/M346/blob/main/KN03/img/Website_Testen.png)
 
 ![Sql Login](https://github.com/finndomeisen/M346/blob/main/KN03/img/Sql_Login.png)
