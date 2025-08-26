@@ -7,4 +7,4 @@ Meine Instanz hat folgende Einstellungen:
 - Grösse des RAM: 957 Mi
 - Anzahl der CPUs: 1
 
-![Instanzen](URL_zum_Bild)
+![Instanzen](https://github.com/finndomeisen/M346/blob/main/KN02/img/Instanz.png)
