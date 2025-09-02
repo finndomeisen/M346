@@ -1,0 +1,21 @@
+#cloud-config
+# Gibt an, dass dies eine Cloud-Init Konfigurationsdatei ist
+
+users:
+  - name: ubuntu # Erstellt einen Benutzer namens "ubuntu"
+    sudo: ALL=(ALL) NOPASSWD:ALL # Gibt dem Benutzer uneingeschränkten sudo-Zugriff ohne Passwortabfrage
+    groups: users, admin # Fügt den Benutzer den Gruppen "users" und "admin" hinzu
+    home: /home/ubuntu # Legt das Home-Verzeichnis des Benutzers fest
+    shell: /bin/bash # Setzt die Standard-Shell auf Bash
+    ssh_authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDw4Wnl/ly1x5+B8NNw0E6v9BbPcl2EzaW7SWlJugTxCp860TJm53Uk8lVor58d0mEEn+Xpw50aZP6bUhHQSX9mADt7fc1eisBtp+io9fM3rF5FxqRAOg6SvFAi8I0ChLCzy4yEPcCUzdaKsh6OOnyYZA4TFJhWwYMPetGY0de3aRi0soVlPJZk2ibBQOA0fbHomnj9zEusbmHTg6bPbA44kllNr1JHYVlTPbWgU2lI1Mi2dMt/TlPUtsEY+WnfkFWw8vZI0wBa2jW+ovL1ZCOyDDn7F0/UPjdpbK1P9uwktJulvty8kgQgc28qV1YdlXF4Y7ud7BCQ08KEJUueqa+T aws-key        
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC0WGP1EZykEtv5YGC9nMiPFW3U3DmZNzKFO5nEu6uozEHh4jLZzPNHSrfFTuQ2GnRDSt+XbOtTLdcj26+iPNiFoFha42aCIzYjt6V8Z+SQ9pzF4jPPzxwXfDdkEWylgoNnZ+4MG1lNFqa8aO7F62tX0Yj5khjC0Bs7Mb2cHLx1XZaxJV6qSaulDuBbLYe8QUZXkMc7wmob3PM0kflfolR3LE7LResIHWa4j4FL6r5cQmFlDU2BDPpKMFMGUfRSFiUtaWBNXFOWHQBC2+uKmuMPYP4vJC9sBgqMvPN/X2KyemqdMvdKXnCfrzadHuSSJYEzD64Cve5Zl9yVvY4AqyBD aws-key        
+      # Öffentlicher SSH-Schlüssel für den Login ohne Passwort
+
+ssh_pwauth: false # Deaktiviert die Anmeldung per Passwort über SSH
+disable_root: false  # Root-Benutzer bleibt aktiviert
+package_update: true # Aktualisiert die Paketliste beim Start
+
+packages:
+  - curl # Installiert das Paket "curl"
+  - wget # Installiert das Paket "wget"
