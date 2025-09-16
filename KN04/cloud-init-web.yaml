@@ -1,0 +1,62 @@
+#cloud-config
+users:
+  - name: ubuntu #benutzername
+    sudo: ALL=(ALL) NOPASSWD:ALL #sudo-Regeln für diesen Benutzer
+    groups: users, admin # user ubuntu wird in gruppen gemacht
+    home: /home/ubuntu #home verzeichnis setzten
+    shell: /bin/bash #default shell definieren
+    ssh_authorized_keys: # ssh key mit dem der benutzter ubuntu auf die maschine zugreifen kann
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDw4Wnl/ly1x5+B8NNw0E6v9BbPcl2EzaW7SWlJugTxCp860TJm53Uk8lVor58d0mEEn+Xpw50aZP6bUhHQSX9mADt7fc1eisBtp+io9fM3rF5FxqRAOg6SvFAi8I0ChLCzy4yEPcCUzdaKsh6OOnyYZA4TFJhWwYMPetGY0de3aRi0soVlPJZk2ibBQOA0fbHomnj9zEusbmHTg6bPbA44kllNr1JHYVlTPbWgU2lI1Mi2dMt/TlPUtsEY+WnfkFWw8vZI0wBa2jW+ovL1ZCOyDDn7F0/UPjdpbK1P9uwktJulvty8kgQgc28qV1YdlXF4Y7ud7BCQ08KEJUueqa+T aws-key
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC0WGP1EZykEtv5YGC9nMiPFW3U3DmZNzKFO5nEu6uozEHh4jLZzPNHSrfFTuQ2GnRDSt+XbOtTLdcj26+iPNiFoFha42aCIzYjt6V8Z+SQ9pzF4jPPzxwXfDdkEWylgoNnZ+4MG1lNFqa8aO7F62tX0Yj5khjC0Bs7Mb2cHLx1XZaxJV6qSaulDuBbLYe8QUZXkMc7wmob3PM0kflfolR3LE7LResIHWa4j4FL6r5cQmFlDU2BDPpKMFMGUfRSFiUtaWBNXFOWHQBC2+uKmuMPYP4vJC9sBgqMvPN/X2KyemqdMvdKXnCfrzadHuSSJYEzD64Cve5Zl9yVvY4AqyBD aws-key
+ssh_pwauth: false #deaktiviert ssh mit passwort authentification
+disable_root: false #root login nicht deaktivieren
+package_update: true #upgraden der packages beim booten
+packages: #diese packages beim ersten start installieren
+  - apache2
+  - php
+  - libapache2-mod-php
+  - php-mysqli
+  - adminer
+
+write_files:
+  - path: /var/www/html/db.php
+    content: |
+      <html>
+      <head></head>
+      <body>
+      Diese Seite macht eine Abfrage auf die Datenbank. <br />
+      Das ausgeführte Query ist: <i>select Host, User from mysql.user;</i><br /><br />
+      Das Resultat: <br />
+      <?php
+              //database
+              $servername = "98.81.90.19";
+              $username = "admin";
+              $password = "LegoTiger24";
+              $dbname = "mysql";
+
+              // Create connection
+              $conn = new mysqli($servername, $username, $password, $dbname);
+              // Check connection
+              if ($conn->connect_error) {
+                      die("Connection failed: " . $conn->connect_error);
+              }
+
+              $sql = "select Host, User from mysql.user;";
+              $result = $conn->query($sql);
+              while($row = $result->fetch_assoc()){
+                      echo("<li>" . $row["Host"] . " / " . $row["User"] . "</li>");
+              }
+              //var_dump($result);
+      ?>
+      </body>
+      </html>
+
+  - path: /var/www/html/info.php
+    content: |
+      <?php
+      // Show all information, defaults to INFO_ALL
+      phpinfo();
+      ?>
+runcmd:
+  - sudo a2enconf adminer
+  - sudo systemctl restart apache2
