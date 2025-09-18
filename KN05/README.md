@@ -1,6 +1,6 @@
 # KN05
 
-## Erklärungen
+## A) Erklärungen
 
 
 * VPC: Ein privates Netzwerk in der Cloud also in AWS (Virtual Private Cloud). Hat grossen IP Adressenbereich.
@@ -14,4 +14,5 @@
 * Statische IP: Feste öffentliche IP die auch bei Neustarts von Instanzen die gleiche bleibt.
 
 
+## B)
 
