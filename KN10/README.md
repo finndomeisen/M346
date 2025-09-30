@@ -3,7 +3,7 @@
 
 ## A
 
-* Erklärung zu der Auswahl der Komponente: *
+** Erklärung zu der Auswahl der Komponente: **
 
 Ich habe die Teile ausgesucht, weil sie ein super Preis-Leistungs-Verhältnis haben und zuverlässig sind. Mir war wichtig, dass man für das Geld wirklich gute Qualität bekommt und die Komponenten auch langfristig sinnvoll nutzbar sind.
 Ausserdem habe ich die Wünsche vom CEO berücksichtigt, damit die Auswahl nicht nur günstig, sondern auch passend zu den Anforderungen ist. Am Ende habe ich mich also für eine Mischung aus Preis, Leistung und den Vorgaben entschieden, sodass alles zusammen ein rundes Gesamtpaket ergibt.
