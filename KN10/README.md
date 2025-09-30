@@ -22,7 +22,8 @@ Erklärung zu der Auswahl der Komponenten. Gehen Sie dabei auf die Abweichungen 
 
 *Erklärung zu der Auswahl der Komponenten:*
 
-* 
+* Ich habe mich für die Kombonente entschieden, weil ich diese als am passendsten empfunden habe.
+* Ich habe es sorgfältig mit den anderen verglichen und habe darum die Vorteile diese Komponenten entdeckt und mich dafür entschieden.
 
 ![Computing](https://github.com/finndomeisen/M346/blob/main/KN10/img/cumputing.jpg)
 ![Performance](https://github.com/finndomeisen/M346/blob/main/KN10/img/performance.jpg)
