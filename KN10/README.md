@@ -20,3 +20,7 @@ Erklärung zu der Auswahl der Komponenten. Gehen Sie dabei auf die Abweichungen 
 
 ## B
 
+![Computing](https://github.com/finndomeisen/M346/blob/main/KN10/img/cumputing.jpg)
+![Performance](https://github.com/finndomeisen/M346/blob/main/KN10/img/performance.jpg)
+![Standard](https://github.com/finndomeisen/M346/blob/main/KN10/img/standard2.jpg)
+
