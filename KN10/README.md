@@ -20,7 +20,14 @@ Erklärung zu der Auswahl der Komponenten. Gehen Sie dabei auf die Abweichungen 
 
 ## B
 
+*Erklärung zu der Auswahl der Komponenten:*
+
+* 
+
 ![Computing](https://github.com/finndomeisen/M346/blob/main/KN10/img/cumputing.jpg)
 ![Performance](https://github.com/finndomeisen/M346/blob/main/KN10/img/performance.jpg)
 ![Standard](https://github.com/finndomeisen/M346/blob/main/KN10/img/standard2.jpg)
+
+
+Erklärung zu der Auswahl der Komponenten. Gehen Sie dabei auf die Abweichungen zu der On Premise Infrastruktur ein. Wichtig ist dabei wieso Sie eine Auswahl gemacht haben.
 
