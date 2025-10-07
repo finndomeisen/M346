@@ -1,60 +1,81 @@
 # KN 10
 
+---
 
-## A
+## A) Auswahl der Cloud-Komponenten
 
-*Erklärung zu der Auswahl der Komponente:*
+**Erklärung zur Auswahl der Komponenten**
 
-* Ich habe die Teile ausgesucht, weil sie ein super Preis-Leistungs-Verhältnis haben und zuverlässig sind.
-* Mir war wichtig, dass man für das Geld wirklich gute Qualität bekommt und die Komponenten auch langfristig sinnvoll nutzbar sind.
-* Ausserdem habe ich die Wünsche vom CEO berücksichtigt, damit die Auswahl nicht nur günstig, sondern auch passend zu den Anforderungen ist.
-* Am Ende habe ich mich also für eine Mischung aus Preis, Leistung und den Vorgaben entschieden, sodass alles zusammen ein rundes Gesamtpaket ergibt.
+Ich habe die Komponenten mit dem Ziel ausgewählt, ein optimales Preis-Leistungs-Verhältnis zu erzielen.  
+Dabei war mir wichtig, dass die gewählten Dienste zuverlässig, skalierbar und kosteneffizient sind.
 
+Folgende Kriterien spielten bei der Auswahl eine Rolle:
+- **Kosten:** Die monatlichen Gesamtkosten sollten im Rahmen bleiben, ohne auf Leistung zu verzichten.
+- **Qualität und Support:** Gute Stabilität und Support durch den Anbieter.
+- **Langfristiger Nutzen:** Komponenten, die auch bei zukünftigem Wachstum sinnvoll einsetzbar bleiben.
+- **Anforderungen des CEOs:** Preisbewusst, aber mit Fokus auf Effizienz und Skalierbarkeit.
 
-![Kosten_AWS](https://github.com/finndomeisen/M346/blob/main/KN10/img/kostenberechnung_aws.png)
-![Kosten_AZURE](https://github.com/finndomeisen/M346/blob/main/KN10/img/kostenberechnung_azure.png)
+Ich habe sowohl AWS als auch Azure verglichen und mich aufgrund der günstigeren Gesamtkosten und einfachen Integration für die jeweiligen empfohlenen Komponenten entschieden.
 
+### Vergleich der Kosten
 
-Erklärung zu der Auswahl der Komponenten. Gehen Sie dabei auf die Abweichungen zu der On Premise Infrastruktur ein. Wichtig ist dabei wieso Sie eine Auswahl gemacht haben.
+![Kosten AWS](https://github.com/finndomeisen/M346/blob/main/KN10/img/kostenberechnung_aws.png)  
+![Kosten Azure](https://github.com/finndomeisen/M346/blob/main/KN10/img/kostenberechnung_azure.png)
 
+**Abweichung zur On-Premise-Infrastruktur:**  
+Im Gegensatz zur On-Premise-Lösung entfallen hier die **Hardwarekosten**, **Stromverbrauch** und **Wartungsaufwände**.  
+Dafür entstehen **laufende Cloudkosten**, die aber durch automatische Skalierung und geringere Ausfallzeiten kompensiert werden.  
+Die Lösung ist dadurch insgesamt **flexibler** und **kostentransparenter**.
 
-## B
+---
 
-*Erklärung zu der Auswahl der Komponenten:*
+## B) Entscheidung für spezifische Cloud-Dienste
 
-* Ich habe mich für die Kombonente entschieden, weil ich diese als am passendsten empfunden habe.
-* Ich habe es sorgfältig mit den anderen verglichen und habe darum die Vorteile diese Komponenten entdeckt und mich dafür entschieden.
+**Erklärung zur Auswahl der Komponenten**
 
-![Computing](https://github.com/finndomeisen/M346/blob/main/KN10/img/cumputing.jpg)
-![Performance](https://github.com/finndomeisen/M346/blob/main/KN10/img/performance.jpg)
+Ich habe mich nach einem Vergleich verschiedener Anbieter und Optionen bewusst für die folgenden Komponenten entschieden, da sie die beste Kombination aus Leistung, Preis und Stabilität bieten.
+
+- **Computing (z. B. AWS EC2 / Azure VM):** Hohe Verfügbarkeit, flexible Skalierung und einfache Verwaltung.  
+- **Storage (z. B. S3 / Azure Blob Storage):** Sicher, redundant und kosteneffizient.  
+- **Netzwerk & Sicherheit:** Integrierte Firewalls, Load Balancer und Monitoring-Tools sorgen für Sicherheit und Performance.
+
+![Computing](https://github.com/finndomeisen/M346/blob/main/KN10/img/cumputing.jpg)  
+![Performance](https://github.com/finndomeisen/M346/blob/main/KN10/img/performance.jpg)  
 ![Standard](https://github.com/finndomeisen/M346/blob/main/KN10/img/standard2.jpg)
 
+**Abweichung zur On-Premise-Infrastruktur:**  
+On-Premise-Server bieten keine dynamische Skalierung – in der Cloud kann die Leistung **automatisch an den Bedarf angepasst** werden.  
+Ausserdem ist die **Wartung deutlich einfacher**, und Updates erfolgen automatisch über den Provider.  
+Dadurch reduziert sich der interne Aufwand erheblich.
 
-Erklärung zu der Auswahl der Komponenten. Gehen Sie dabei auf die Abweichungen zu der On Premise Infrastruktur ein. Wichtig ist dabei wieso Sie eine Auswahl gemacht haben.
+---
 
+## C) CRM-Systemvergleich
 
+**Vergleich zwischen Salesforce und Zoho CRM**
 
+Ich habe die beiden Systeme **Salesforce Professional Suite** und **Zoho CRM Professional** verglichen, um die beste Lösung für das Unternehmen zu finden.
 
-
-## C
-
-![Salesforce](https://github.com/finndomeisen/M346/blob/main/KN10/img/salesforce_pro_suite.png)
+![Salesforce](https://github.com/finndomeisen/M346/blob/main/KN10/img/salesforce_pro_suite.png)  
 ![Zoho](https://github.com/finndomeisen/M346/blob/main/KN10/img/zoho_professional.png)
 
+| Kriterium | Salesforce Professional | Zoho CRM Professional |
+|------------|------------------------|-----------------------|
+| Preis | Deutlich teurer | Günstiger |
+| Funktionsumfang | Sehr gross, aber teilweise überdimensioniert | Alle wichtigen CRM-Funktionen enthalten |
+| Benutzerfreundlichkeit | Komplexer Aufbau | Einfache und intuitive Bedienung |
+| Automatisierung | Umfangreich | Gut, aber einfacher |
+| Skalierbarkeit | Hoch | Mittel bis hoch |
+| Fazit | Für grosse Unternehmen geeignet | Ideal für KMU und Startups |
 
+**Meine Wahl:**  
+Ich würde **Zoho CRM Professional** wählen, da es alle grundlegenden Funktionen (Leadmanagement, Reporting, Automatisierung) bietet, aber **deutlich günstiger und benutzerfreundlicher** ist.  
+Für kleinere oder mittelgrosse Unternehmen ist Zoho die wirtschaftlichere und effizientere Option.
 
-Für Zoho CRM würde ich den Professional-Plan wählen, da er alle grundlegenden CRM-Funktionen bietet, Automatisierungen enthält und kostengünstiger als Salesforce ist.
-Salesforce ist leistungsfähiger und integrierbar mit anderen Systemen, jedoch deutlich teurer.
-Für 30 Benutzer würde Zoho rund xxx CHF/Monat kosten, während Salesforce xxx CHF/Monat kosten würde.
+---
 
+## Fazit
 
-
-## D
-
-Die Kosten unterscheiden sich stark zwischen den Varianten.
-IAAS-Lösungen (AWS, Azure) verursachen höhere Kosten durch Infrastruktur und Wartung.
-Heroku als PAAS ist günstiger und reduziert den Administrationsaufwand.
-Die SAAS-Lösungen (Zoho, Salesforce) sind am einfachsten umzusetzen, da keine Migration nötig ist – dafür verliert man Kontrolle über das System.
-Für unsere Firma wäre Heroku oder Zoho CRM wahrscheinlich die beste Balance zwischen Kosten und Aufwand.
-
+Durch die Kombination aus **Cloud-Diensten** (AWS oder Azure) und einem passenden **CRM-System** (Zoho CRM Professional) entsteht eine **skalierbare, sichere und kostengünstige Gesamtlösung**.  
+Die Systeme lassen sich flexibel erweitern und reduzieren den Wartungsaufwand erheblich im Vergleich zu einer On-Premise-Lösung.
 
