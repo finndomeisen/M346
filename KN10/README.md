@@ -74,8 +74,30 @@ Für kleinere oder mittelgrosse Unternehmen ist Zoho die wirtschaftlichere und e
 
 ---
 
-## Fazit
+## D) Fazit
 
-Durch die Kombination aus **Cloud-Diensten** (AWS oder Azure) und einem passenden **CRM-System** (Zoho CRM Professional) entsteht eine **skalierbare, sichere und kostengünstige Gesamtlösung**.  
-Die Systeme lassen sich flexibel erweitern und reduzieren den Wartungsaufwand erheblich im Vergleich zu einer On-Premise-Lösung.
+Nach der Analyse von fünf Varianten (AWS, Azure, Heroku, Zoho CRM, Salesforce) lassen sich folgende Schlüsse ziehen:
 
+### Kostenvergleich
+- **AWS & Azure (IaaS)**: Flexibel und skalierbar, aber laufende Kosten können bei Dauerbetrieb steigen.  
+- **Heroku (PaaS)**: Teurer als IaaS, jedoch mit weniger Administrationsaufwand.  
+- **Zoho CRM / Salesforce (SaaS)**: Monatliche Fixkosten, keine IT-Verwaltung nötig, aber eingeschränkte Anpassbarkeit.  
+
+### Aufwand für die Firma
+- **IaaS (Rehosting)**: Hoher technischer Aufwand, Migration und Wartung bleiben intern.  
+- **PaaS (Replatforming)**: Mittel – weniger Wartung, aber gewisse Anpassungen nötig.  
+- **SaaS (Repurchasing)**: Geringster Aufwand – einfach Benutzer einrichten und starten.  
+
+### Bewertung
+| Modell | Kosten | Aufwand | Flexibilität | Empfehlung |
+|---------|---------|----------|----------------|-------------|
+| AWS | Mittel | Hoch | Hoch | ✅ |
+| Azure | Mittel | Hoch | Hoch | ✅ |
+| Heroku | Mittel-Hoch | Mittel | Mittel | 🔸 |
+| Zoho CRM | Tief | Tief | Mittel | ✅ Beste Option für KMU |
+| Salesforce | Hoch | Tief | Hoch | 🔸 Für grosse Firmen |
+
+### Schlussfolgerung
+Die Cloud-Migration lohnt sich klar.  
+Die Variante **SaaS (Zoho CRM)** bietet für diese Firma das **beste Kosten-Nutzen-Verhältnis**, während **AWS oder Azure** eine gute Option wären, falls man die alte Anwendung weiter betreiben möchte.  
+Langfristig spart die Firma durch geringeren Wartungsaufwand, höhere Sicherheit und einfache Skalierung.
