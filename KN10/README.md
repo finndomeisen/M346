@@ -23,9 +23,9 @@ Ich habe sowohl AWS als auch Azure verglichen und mich aufgrund der günstigeren
 ![Kosten Azure](https://github.com/finndomeisen/M346/blob/main/KN10/img/kostenberechnung_azure.png)
 
 **Abweichung zur On-Premise-Infrastruktur:**  
-Im Gegensatz zur On-Premise-Lösung entfallen hier die **Hardwarekosten**, **Stromverbrauch** und **Wartungsaufwände**.  
-Dafür entstehen **laufende Cloudkosten**, die aber durch automatische Skalierung und geringere Ausfallzeiten kompensiert werden.  
-Die Lösung ist dadurch insgesamt **flexibler** und **kostentransparenter**.
+Im Gegensatz zur On-Premise-Lösung entfallen hier die Hardwarekosten, Stromverbrauch und Wartungsaufwände.  
+Dafür entstehen laufende Cloudkosten, die aber durch automatische Skalierung und geringere Ausfallzeiten kompensiert werden.  
+Die Lösung ist dadurch insgesamt flexibler und kostentransparenter.
 
 ---
 
@@ -35,8 +35,8 @@ Die Lösung ist dadurch insgesamt **flexibler** und **kostentransparenter**.
 
 Ich habe mich nach einem Vergleich verschiedener Anbieter und Optionen bewusst für die folgenden Komponenten entschieden, da sie die beste Kombination aus Leistung, Preis und Stabilität bieten.
 
-- **Computing (z. B. AWS EC2 / Azure VM):** Hohe Verfügbarkeit, flexible Skalierung und einfache Verwaltung.  
-- **Storage (z. B. S3 / Azure Blob Storage):** Sicher, redundant und kosteneffizient.  
+- **Computing (AWS EC2 / Azure VM):** Hohe Verfügbarkeit, flexible Skalierung und einfache Verwaltung.  
+- **Storage (S3 / Azure Blob Storage):** Sicher, redundant und kosteneffizient.  
 - **Netzwerk & Sicherheit:** Integrierte Firewalls, Load Balancer und Monitoring-Tools sorgen für Sicherheit und Performance.
 
 ![Computing](https://github.com/finndomeisen/M346/blob/main/KN10/img/cumputing.jpg)  
@@ -44,8 +44,8 @@ Ich habe mich nach einem Vergleich verschiedener Anbieter und Optionen bewusst f
 ![Standard](https://github.com/finndomeisen/M346/blob/main/KN10/img/standard2.jpg)
 
 **Abweichung zur On-Premise-Infrastruktur:**  
-On-Premise-Server bieten keine dynamische Skalierung – in der Cloud kann die Leistung **automatisch an den Bedarf angepasst** werden.  
-Ausserdem ist die **Wartung deutlich einfacher**, und Updates erfolgen automatisch über den Provider.  
+On-Premise-Server bieten keine dynamische Skalierung – in der Cloud kann die Leistung automatisch an den Bedarf angepasst werden.  
+Ausserdem ist die Wartung deutlich einfacher, und Updates erfolgen automatisch über den Provider.  
 Dadurch reduziert sich der interne Aufwand erheblich.
 
 ---
@@ -61,15 +61,15 @@ Ich habe die beiden Systeme **Salesforce Professional Suite** und **Zoho CRM Pro
 
 | Kriterium | Salesforce Professional | Zoho CRM Professional |
 |------------|------------------------|-----------------------|
-| Preis | Deutlich teurer | Günstiger |
+| Preis       | Deutlich teurer       | Günstiger |
 | Funktionsumfang | Sehr gross, aber teilweise überdimensioniert | Alle wichtigen CRM-Funktionen enthalten |
 | Benutzerfreundlichkeit | Komplexer Aufbau | Einfache und intuitive Bedienung |
-| Automatisierung | Umfangreich | Gut, aber einfacher |
-| Skalierbarkeit | Hoch | Mittel bis hoch |
-| Fazit | Für grosse Unternehmen geeignet | Ideal für KMU und Startups |
+| Automatisierung         | Umfangreich         | Gut, aber einfacher |
+| Skalierbarkeit             | Hoch                 | Mittel bis hoch |
+| Fazit                         | Für grosse Unternehmen geeignet | Ideal für KMU und Startups |
 
 **Meine Wahl:**  
-Ich würde **Zoho CRM Professional** wählen, da es alle grundlegenden Funktionen (Leadmanagement, Reporting, Automatisierung) bietet, aber **deutlich günstiger und benutzerfreundlicher** ist.  
+Ich würde **Zoho CRM Professional** wählen, da es alle grundlegenden Funktionen (Leadmanagement, Reporting, Automatisierung) bietet, aber deutlich günstiger und benutzerfreundlicher ist.  
 Für kleinere oder mittelgrosse Unternehmen ist Zoho die wirtschaftlichere und effizientere Option.
 
 ---
