@@ -15,6 +15,15 @@
 * Zuerst wurden zwei **Sicherheitsgruppen** erstellt:
   * **SG-Webserver** mit Ports **22 (SSH)** und **80 (HTTP)** offen
   * **SG-Database** mit Port **3306 (MariaDB)**, nur intern im Subnetz erreichbar
+ 
+    ![](https://github.com/finndomeisen/M346/blob/main/KN05/img/elastic_ip.png)
+    ![](https://github.com/finndomeisen/M346/blob/main/KN05/img/sicherheitsgruppen.png)
+    ![](https://github.com/finndomeisen/M346/blob/main/KN05/img/vpc.png)
+    ![](https://github.com/finndomeisen/M346/blob/main/KN05/img/subnetze.png)
+    ![](https://github.com/finndomeisen/M346/blob/main/KN05/img/sg-webserver.png)
+    ![](https://github.com/finndomeisen/M346/blob/main/KN05/img/sg-database.png)
+    ![](https://github.com/finndomeisen/M346/blob/main/KN05/img/instancess.png)
+
 
 * Danach wurde eine **statische öffentliche IP (Elastic IP)** erstellt und mit dem Webserver verknüpft, damit dieser immer die gleiche öffentliche IP-Adresse behält.
 * Anschliessend wurden zwei **EC2-Instanzen** erstellt:
@@ -28,5 +37,7 @@
 * Nach einem Neustart blieben alle privaten und öffentlichen IPs gleich – die Konfiguration funktioniert also korrekt.
 
 * Zum Schluss wurden die Seiten **index.html**, **info.php** und **db.php** erfolgreich getestet – alle konnten ohne Fehler aufgerufen werden.
+
+   ![](https://github.com/finndomeisen/M346/blob/main/KN05/img/index.png)
 
 
