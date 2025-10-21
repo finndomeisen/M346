@@ -2,17 +2,31 @@
 
 ## A) Erklärungen
 
+* **VPC:** Ein privates Netzwerk in der Cloud, also in AWS (Virtual Private Cloud). Hat einen grossen IP-Adressbereich.
+* **Subnet:** Ein kleiner Teil dieses privaten Netzwerks (VPC). Hat einen kleineren IP-Adressbereich innerhalb des VPC.
+* **Public IP:** Öffentliche IP-Adresse, die im Internet sichtbar ist. Damit kann man von aussen auf eine Instanz zugreifen.
+* **Private IP:** Interne private Adresse im privaten Netzwerk (VPC), nicht direkt von aussen erreichbar. Zuständig für die Kommunikation zwischen Instanzen.
+* **Statische IP:** Feste öffentliche IP, die auch bei Neustarts von Instanzen gleich bleibt.
 
-* VPC: Ein privates Netzwerk in der Cloud also in AWS (Virtual Private Cloud). Hat grossen IP Adressenbereich.
+---
 
-* Subnet: Ein kleiner Teil von diesem privaten Netzwerkes (VPC). Hat kleinen IP Adressenbereich innerhalb des VPC.
+## B) Umsetzung
 
-* Public IP: Öffentliche IP welche im Internet sichbar ist, damit kann man von aussen auf eine Instanz zugreifen.
+* Zuerst wurden zwei **Sicherheitsgruppen** erstellt:
+  * **SG-Webserver** mit Ports **22 (SSH)** und **80 (HTTP)** offen
+  * **SG-Database** mit Port **3306 (MariaDB)**, nur intern im Subnetz erreichbar
 
-* Private IP: Interne Private Adresse im Privaten Netzwerk (VPC) welche nicht direkt von aussen erreichbar ist, zuständig für Kommunikation zwischen Instanzen.
+* Danach wurde eine **statische öffentliche IP (Elastic IP)** erstellt und mit dem Webserver verknüpft, damit dieser immer die gleiche öffentliche IP-Adresse behält.
+* Anschliessend wurden zwei **EC2-Instanzen** erstellt:
 
-* Statische IP: Feste öffentliche IP die auch bei Neustarts von Instanzen die gleiche bleibt.
+  * **Web-KN05** im Subnetz *Sub-KN05* mit privater IP `10.0.1.10`
+  * **DB-KN05** im gleichen Subnetz mit privater IP `10.0.1.20`
 
+* Jede Instanz erhielt die passende **Sicherheitsgruppe**.
+  Der Webserver hat zusätzlich die statische IP **Elastic IP – IP-Web** zugewiesen bekommen.
 
-## B)
+* Nach einem Neustart blieben alle privaten und öffentlichen IPs gleich – die Konfiguration funktioniert also korrekt.
+
+* Zum Schluss wurden die Seiten **index.html**, **info.php** und **db.php** erfolgreich getestet – alle konnten ohne Fehler aufgerufen werden.
+
 
