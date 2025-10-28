@@ -29,11 +29,11 @@
 
    ![](https://github.com/finndomeisen/M346/blob/main/KN05/img/instancess.png)
 
-  * **Web-KN05** im Subnetz *Sub-KN05* mit privater IP `10.0.1.10`
+  * **Web-KN05** im Subnetz *Sub-KN05* mit privater IP `172.31.0.10`
 
  ![](https://github.com/finndomeisen/M346/blob/main/KN05/img/sg-webserver.png)
     
-  * **DB-KN05** im gleichen Subnetz mit privater IP `10.0.1.20`
+  * **DB-KN05** im gleichen Subnetz mit privater IP `172.31.0.20`
 
      ![](https://github.com/finndomeisen/M346/blob/main/KN05/img/sg-database.png)
     
